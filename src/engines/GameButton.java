@@ -4,9 +4,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 
-/**
- * Created by DuongNArtist on 10/11/2015.
- */
+
 public class GameButton extends GameActor {
 
     public static final int SPEED_MIN = 2;

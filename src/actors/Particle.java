@@ -6,9 +6,6 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 
-/**
- * Created by DuongNArtist on 10/9/2015.
- */
 public class Particle extends GameActor {
 
     public static final int SIZE_SMALL = 2;

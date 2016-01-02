@@ -1,8 +1,5 @@
 package engines;
 
-/**
- * Created by DuongNArtist on 10/11/2015.
- */
 public class GameString {
 
     public static final int VIETNAMESE = 0;

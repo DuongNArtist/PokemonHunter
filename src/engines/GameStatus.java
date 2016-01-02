@@ -4,9 +4,6 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 
-/**
- * Created by DuongNArtist on 10/12/2015.
- */
 public class GameStatus extends GameActor {
 
     public static final int TIMER_INIT = 60;

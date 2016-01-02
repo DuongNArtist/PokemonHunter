@@ -2,9 +2,6 @@ package engines;
 
 import java.io.*;
 
-/**
- * Created by DuongNArtist on 10/15/2015.
- */
 public class GameFile {
 
     public static final String PATH = "D:\\data.epu";
@@ -36,15 +33,18 @@ public class GameFile {
     }
 
     public int readFile() {
+        int score = 0;
         try {
-            InputStream fileInputStream = new FileInputStream(PATH);
-            int score = fileInputStream.read();
-            fileInputStream.close();
-            return score;
+            File file = new File((PATH));
+            if (file.exists()) {
+                InputStream fileInputStream = new FileInputStream(PATH);
+                score = fileInputStream.read();
+                fileInputStream.close();
+            }
         } catch (Exception e) {
             e.printStackTrace();
-            return 0;
         }
+        return score;
     }
 
 }

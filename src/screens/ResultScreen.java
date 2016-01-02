@@ -7,9 +7,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 
-/**
- * Created by DuongNArtist on 10/9/2015.
- */
 public class ResultScreen extends GameScreen {
 
     private ArrayList<GameButton> gameButtons;
