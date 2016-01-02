@@ -4,10 +4,11 @@ import java.io.*;
 
 public class GameFile {
 
-    public static final String PATH = "D:\\data.epu";
+    public static final String PATH = System.getProperty("user.dir") + File.separator + "data.epu";
     private static GameFile instance;
 
     private GameFile() {
+        System.out.print(PATH);
         GameStatus.high = readFile();
     }
 

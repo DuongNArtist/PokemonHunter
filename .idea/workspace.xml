@@ -7,17 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df4c4fa-0b94-4f32-af89-14d82f81a048" name="Default" comment="new fix bugs">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PokemonHunter/actors/Particle.class" afterPath="$PROJECT_DIR$/out/production/PokemonHunter/actors/Particle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PokemonHunter/engines/GameButton.class" afterPath="$PROJECT_DIR$/out/production/PokemonHunter/engines/GameButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PokemonHunter/engines/GameFile.class" afterPath="$PROJECT_DIR$/out/production/PokemonHunter/engines/GameFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PokemonHunter/engines/GameStatus.class" afterPath="$PROJECT_DIR$/out/production/PokemonHunter/engines/GameStatus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PokemonHunter/engines/GameString.class" afterPath="$PROJECT_DIR$/out/production/PokemonHunter/engines/GameString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PokemonHunter/screens/PlayScreen.class" afterPath="$PROJECT_DIR$/out/production/PokemonHunter/screens/PlayScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PokemonHunter/screens/ResultScreen$1.class" afterPath="$PROJECT_DIR$/out/production/PokemonHunter/screens/ResultScreen$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PokemonHunter/screens/ResultScreen$2.class" afterPath="$PROJECT_DIR$/out/production/PokemonHunter/screens/ResultScreen$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PokemonHunter/screens/ResultScreen.class" afterPath="$PROJECT_DIR$/out/production/PokemonHunter/screens/ResultScreen.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/PokemonHunter_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/engines/GameButton.java" afterPath="$PROJECT_DIR$/src/engines/GameButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/engines/GameFile.java" afterPath="$PROJECT_DIR$/src/engines/GameFile.java" />
     </list>
     <ignored path="PokemonHunter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameButton.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameButton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/engines/GameButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29974812">
-              <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -56,7 +49,17 @@
         <entry file="file://$PROJECT_DIR$/src/engines/GameFile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/engines/GameMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1209068">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -122,16 +125,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameAudio.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/engines/GameAudio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GameBoard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/engines/GameBoard.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -189,15 +182,15 @@
         <option value="$PROJECT_DIR$/src/actors/Ball.java" />
         <option value="$PROJECT_DIR$/src/engines/GameThread.java" />
         <option value="$PROJECT_DIR$/src/dialogs/BaseDialog.java" />
-        <option value="$PROJECT_DIR$/src/engines/GameMain.java" />
         <option value="$PROJECT_DIR$/src/actors/Particle.java" />
         <option value="$PROJECT_DIR$/src/screens/ResultScreen.java" />
         <option value="$PROJECT_DIR$/src/screens/PlayScreen.java" />
         <option value="$PROJECT_DIR$/src/screens/MenuScreen.java" />
         <option value="$PROJECT_DIR$/src/engines/GameString.java" />
         <option value="$PROJECT_DIR$/src/engines/GameStatus.java" />
-        <option value="$PROJECT_DIR$/src/engines/GameFile.java" />
         <option value="$PROJECT_DIR$/src/engines/GameButton.java" />
+        <option value="$PROJECT_DIR$/src/engines/GameFile.java" />
+        <option value="$PROJECT_DIR$/src/engines/GameMain.java" />
       </list>
     </option>
   </component>
@@ -367,14 +360,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -796,7 +789,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451723377949</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="new fix bugs">
+      <created>1451723526237</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1451723526237</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1103,14 +1102,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/engines/GameMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/engines/GamePanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1222,14 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/engines/GameFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/engines/GameFont.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1280,8 +1263,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/engines/GameButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29974812">
-          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engines/GameFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engines/GameMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1209068">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1297,6 +1296,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
