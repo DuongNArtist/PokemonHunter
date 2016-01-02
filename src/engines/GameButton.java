@@ -81,16 +81,16 @@ public class GameButton extends GameActor {
                 Math.round(y) - GameImage.STROKE_MIN,
                 width + 2 * height + GameImage.STROKE_MAX,
                 height + GameImage.STROKE_MAX,
-                height / 2,
-                height / 2);
+                height,
+                height);
         graphics2D.setColor(color);
         graphics2D.fillRoundRect(
                 Math.round(x) - height,
                 Math.round(y),
                 width + 2 * height,
                 height,
-                height / 2 - GameImage.STROKE_MAX,
-                height / 2 - GameImage.STROKE_MAX);
+                height - GameImage.STROKE_MAX,
+                height - GameImage.STROKE_MAX);
         graphics2D.setColor(Color.DARK_GRAY);
         graphics2D.drawString(texts[GameString.language], x, y + height * GameImage.HEIGHT_SCALE);
     }
